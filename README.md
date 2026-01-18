@@ -1,4 +1,4 @@
-# 📊 Data Warehouse Analytics — Exploratory Data Analysis (EDA) Portfolio
+# 📊 Data Warehouse Analytics - Exploratory Data Analysis (EDA) Portfolio
 
 ## Overview
 
@@ -93,17 +93,17 @@ FROM 'C:\[YOUR PATH]\Exploratory-Data-Analysis-EDA-Portfolio\datasets\csv-files\
 
 ## 🔍 Exploration Phase
 
-### 01 — Database Exploration
+### 01 - Database Exploration
 
 * Lists all tables and schemas
 * Inspects table metadata using `INFORMATION_SCHEMA`
 
-### 02 — Dimension Exploration
+### 02 - Dimension Exploration
 
 * Unique customer countries
 * Unique product categories and subcategories
 
-### 03 — Date Range Exploration
+### 03 - Date Range Exploration
 
 * First and last order dates
 * Total historical coverage
@@ -112,7 +112,7 @@ FROM 'C:\[YOUR PATH]\Exploratory-Data-Analysis-EDA-Portfolio\datasets\csv-files\
 
 ## 📐 Measures & KPI Exploration
 
-### 04 — Measures Exploration
+### 04 - Measures Exploration
 
 Calculates core KPIs:
 
@@ -129,7 +129,7 @@ Also generates a unified KPI report using `UNION ALL`.
 
 ## 📊 Magnitude Analysis
 
-### 05 — Magnitude Analysis
+### 05 - Magnitude Analysis
 
 Analyzes distribution and scale:
 
@@ -143,7 +143,7 @@ Analyzes distribution and scale:
 
 ## 🏆 Ranking Analysis
 
-### 06 — Ranking Analysis
+### 06 - Ranking Analysis
 
 Identifies performance extremes:
 
@@ -157,7 +157,7 @@ Uses `TOP` and window ranking functions such as `RANK()`.
 
 ## 📈 Change Over Time Analysis
 
-### 07 — Change Over Time Analysis
+### 07 - Change Over Time Analysis
 
 Tracks trends using:
 
@@ -174,7 +174,7 @@ Measures:
 
 ## 🔁 Cumulative Analysis
 
-### 08 — Cumulative Analysis
+### 08 - Cumulative Analysis
 
 Computes running metrics:
 
@@ -186,7 +186,7 @@ Uses window functions over time-ordered data.
 
 ## 📉 Performance Analysis
 
-### 09 — Performance Analysis
+### 09 - Performance Analysis
 
 Performs Year-over-Year evaluation:
 
@@ -203,7 +203,7 @@ Uses:
 
 ## 🧩 Data Segmentation
 
-### 10 — Data Segmentation
+### 10 - Data Segmentation
 
 Segments data into business-relevant groups.
 
@@ -224,7 +224,7 @@ Customer behavior segmentation:
 
 ## 🥧 Part-to-Whole Analysis
 
-### 11 — Part-to-Whole Analysis
+### 11 - Part-to-Whole Analysis
 
 Measures category contribution to overall sales using window totals and percentage calculations.
 
@@ -232,7 +232,7 @@ Measures category contribution to overall sales using window totals and percenta
 
 ## 📑 Reporting Views
 
-### 12 — Customer Report View
+### 12 - Customer Report View
 
 Creates:
 
@@ -252,7 +252,7 @@ Includes:
 
 
 
-### 13 — Product Report View
+### 13 - Product Report View
 
 Creates:
 
