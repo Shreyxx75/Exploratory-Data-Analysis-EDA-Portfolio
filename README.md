@@ -9,14 +9,12 @@ It follows a structured approach used in professional BI and analytics teams:
 
 The warehouse is built in a star schema and analyzed using common analytical SQL patterns such as ranking, time-series trends, segmentation, and part-to-whole contribution reporting.
 
----
-
 ## 🏗️ Architecture
 
 This project follows a classic medallion-style architecture:
 
 | Layer  | Purpose |
-|--------|----------|
+|--|-|
 | Bronze | Raw CRM & ERP extracts (CSV files) |
 | Silver | Cleaned and standardized datasets |
 | Gold   | Analytics-ready star schema + reporting views |
@@ -26,8 +24,6 @@ This project follows a classic medallion-style architecture:
 - `gold.fact_sales`
 - `gold.dim_customers`
 - `gold.dim_products`
-
----
 
 ## 📂 Project Structure
 
@@ -60,7 +56,6 @@ scripts/
 
 Each script represents a distinct analytics pattern used in real-world reporting and decision support.
 
----
 
 ## ⚙️ Setup Instructions
 
@@ -78,7 +73,7 @@ Run:
 
 scripts/00_init_database.sql
 
-````
+```
 
 This script will:
 
@@ -95,7 +90,6 @@ Update file paths before execution:
 FROM 'C:\[YOUR PATH]\Exploratory-Data-Analysis-EDA-Portfolio\datasets\csv-files\gold.fact_sales.csv'
 ````
 
----
 
 ## 🔍 Exploration Phase
 
@@ -115,7 +109,6 @@ FROM 'C:\[YOUR PATH]\Exploratory-Data-Analysis-EDA-Portfolio\datasets\csv-files\
 * Total historical coverage
 * Youngest and oldest customers
 
----
 
 ## 📐 Measures & KPI Exploration
 
@@ -133,7 +126,6 @@ Calculates core KPIs:
 
 Also generates a unified KPI report using `UNION ALL`.
 
----
 
 ## 📊 Magnitude Analysis
 
@@ -148,7 +140,6 @@ Analyzes distribution and scale:
 * Revenue by customer
 * Units sold by country
 
----
 
 ## 🏆 Ranking Analysis
 
@@ -163,7 +154,6 @@ Identifies performance extremes:
 
 Uses `TOP` and window ranking functions such as `RANK()`.
 
----
 
 ## 📈 Change Over Time Analysis
 
@@ -181,7 +171,6 @@ Measures:
 * Monthly customers
 * Monthly quantities
 
----
 
 ## 🔁 Cumulative Analysis
 
@@ -194,7 +183,6 @@ Computes running metrics:
 
 Uses window functions over time-ordered data.
 
----
 
 ## 📉 Performance Analysis
 
@@ -211,7 +199,7 @@ Uses:
 * `AVG() OVER()`
 * `CASE` classification logic
 
----
+
 
 ## 🧩 Data Segmentation
 
@@ -232,7 +220,7 @@ Customer behavior segmentation:
 * Regular
 * New
 
----
+
 
 ## 🥧 Part-to-Whole Analysis
 
@@ -240,7 +228,7 @@ Customer behavior segmentation:
 
 Measures category contribution to overall sales using window totals and percentage calculations.
 
----
+
 
 ## 📑 Reporting Views
 
@@ -262,7 +250,7 @@ Includes:
 * Average order value
 * Average monthly spend
 
----
+
 
 ### 13 — Product Report View
 
@@ -282,7 +270,7 @@ Includes:
 * Average order revenue
 * Average monthly revenue
 
----
+
 
 ## 🧠 Skills Demonstrated
 
@@ -295,7 +283,7 @@ Includes:
 * KPI engineering
 * Reporting layer design
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -304,11 +292,9 @@ Includes:
 * CSV-based warehouse ingestion
 * Dimensional data warehousing
 
----
+
 
 ## 📜 License
 
 This project is licensed under the MIT License.
 See the `LICENSE` file for details.
-
-```
