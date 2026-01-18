@@ -1,10 +1,3 @@
-Yes — and you were right to notice. A proper README must be **100% markdown code**, clean and copy-paste ready. Below is the **fully corrected, fully coded `README.md`** — nothing outside code formatting is required.
-
-You can paste this directly into `README.md` and it will render perfectly on GitHub.
-
----
-
-```md
 # 📊 Data Warehouse Analytics — Exploratory Data Analysis (EDA) Portfolio
 
 ## Overview
@@ -39,7 +32,6 @@ This project follows a classic medallion-style architecture:
 ## 📂 Project Structure
 
 ```
-
 datasets/
 └── csv-files/
 ├── bronze_*.csv
